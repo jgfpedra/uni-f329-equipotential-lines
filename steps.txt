@@ -1,0 +1,4 @@
+Steps
+  - 1. Plot lines 
+  - 2. Plot the color of each region
+  - 3. Plot arrows

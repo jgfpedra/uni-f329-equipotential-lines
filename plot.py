@@ -11,15 +11,17 @@ y = [
         [12, 11.1, 10.7, 10.8, 11, 11.7],
         [15, 14.4, 14.1, 14.1, 14.3, 14.9],
         ]
+labels = ['2,100', '1,910', '1,530', '1,090', '0,685', '0,280']
 
 plt.figure(figsize=(10, 5.4), layout='constrained')
-plt.plot(x, np.asarray(y[0]), label='2.1')
-plt.plot(x, np.asarray(y[1]), label='1,91')
-plt.plot(x, np.asarray(y[2]), label='1,53')
-plt.plot(x, np.asarray(y[3]), label='1,09')
-plt.plot(x, np.asarray(y[4]), label='0,685')
-plt.plot(x, np.asarray(y[5]), label='0,28')
+plt.plot(np.asarray(y[0]), x, label='2,100')
+plt.plot(np.asarray(y[1]), x, label='1,910')
+plt.plot(np.asarray(y[2]), x, label='1,530')
+plt.plot(np.asarray(y[3]), x, label='1,090')
+plt.plot(np.asarray(y[4]), x, label='0,685')
+plt.plot(np.asarray(y[5]), x, label='0,280')
 plt.xlabel('x label')
 plt.ylabel('y label')
+plt.legend()
 plt.show()
 
