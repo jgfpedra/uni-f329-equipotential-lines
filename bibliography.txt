@@ -1,3 +1,8 @@
 https://python-course.eu/numerical-programming/contour-plots-with-matplotlib.php
 https://problemsolvingwithpython.com/06-Plotting-with-Matplotlib/06.15-Quiver-and-Stream-Plots/
 
+
+Passos
+  - 1. Plotar as linhas - tipo do docs
+  - 2. Plotar as cores entre as linhas
+  - 3. Plotar as setas
